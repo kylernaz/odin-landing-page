@@ -6,12 +6,15 @@ body {
 }
 
 .header, .right-intro, .section-two, .info-content,
-.section-three {
+.section-three, .section-four, .call-to-action-box {
     display: flex;
 }
 
-.section-one {
+.section-one, .footer {
     background-color: #1F2937;
+}
+
+.section-one {
     padding: 0 400px;
 }
 
@@ -62,13 +65,16 @@ button {
     font-size: 16px;
     color: white;
     font-weight: bold;
-    border: none;
     border-radius: 8px;
     padding: 8px 32px;
+}
+
+.top-button {
+    border: none;
     margin-top: 16px;
 }
 
-.section-two, .section-three, .section-four {
+.section-two, .section-three {
     height: 500px;
 }
 
@@ -127,4 +133,41 @@ button {
     font-size: 24px;
     font-weight: 900;
     text-align: end;
+}
+
+.section-four, .call-to-action-box {
+    justify-content: center;
+    align-items: center;
+}
+
+.section-four {
+    height: 400px;
+    color: #F9FAF8;
+}
+
+.call-to-action-box {
+    height: 200px;
+    width: 1200px;
+    background-color: #3882F6;
+    justify-content: space-evenly;
+    border-radius: 16px;
+}
+
+.action-header {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.action-subtext {
+    font-size: 20px;
+}
+
+.bottom-button {
+    border: 2px solid white;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    padding: 40px;
 }
