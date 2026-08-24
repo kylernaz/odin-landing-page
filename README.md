@@ -1,5 +1,5 @@
 # odin-landing-page
 
-This is a HTML + CSS landing page project for The Odin Project!
+This is an HTML + CSS landing page layout from The Odin Project!
 
 See https://theodinproject.com/about for more info.
